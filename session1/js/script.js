@@ -55,3 +55,9 @@ console.log(mult);
 
 var div = num1 / num2;
 console.log(div);
+
+//--------------
+var user = prompt("Name: ");
+alert('Welcome ' + user);
+
+document.getElementById('division').innerHTML=" Num1 = " + num1 + "<br></br> " + "Num2 = " + num2 + "<hr>";
