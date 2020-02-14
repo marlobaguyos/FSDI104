@@ -29,10 +29,8 @@
         document.getElementById('min').innerHTML=min;
         document.getElementById('sec').innerHTML=sec;
 
-
+    }
     //am or pm conditions
-
-    
 
 updateHour();
 var inter = setInterval(updateHour,1000);
