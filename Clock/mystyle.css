@@ -1,0 +1,33 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #0d5e8a;
+    color: #ffffff;
+    font: 16px;
+}
+
+.wrap{
+    width: 80%;
+    max-width: 1000px;
+}
+
+.widget p{
+    display: inline-block;
+    line-height: 1rem;
+}
+
+.date{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    padding:20px;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+}
+
+.clock{
+    width: 100%;
+    padding: 20px;
+    font-size: 4rem;
+    text-align: center;
+}
+
