@@ -8,6 +8,8 @@ body {
 .wrap{
     width: 80%;
     max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .widget p{
@@ -29,5 +31,6 @@ body {
     padding: 20px;
     font-size: 4rem;
     text-align: center;
+    background: rgba(0,0,0,.5);
 }
 
