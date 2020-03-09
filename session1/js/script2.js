@@ -50,42 +50,42 @@ var num2 = 20;
 // var travel = traveling('Italy');
 // console.log(travel);
 
-//const logged = true;
+const logged = true;
 
-// if(logged) {
-//     console.log('Welcome to the site');
-// }
-// else {
-//     console.log('Please log in');
-// }
+if(logged) {
+    console.log('Welcome to the site');
+}
+else {
+    console.log('Please log in');
+}
 
-// console.log(logged ? 'Welcome to the site' : 'Please log in');
+console.log(logged ? 'Welcome to the site' : 'Please log in');
 
-// let cash = 600;
-// let totalCart = 1000;
-// let creditCard = false;
+let cash = 600;
+let totalCart = 1000;
+let creditCard = false;
 
-// if(cash > totalCart) {
-//     console.log('Successful transaction');
-// }
-// else if(creditCard) {
-//     console.log('You paid with a credit card');
-// }
-// else {
-//     console.log('Failure');
-// }
+if(cash > totalCart) {
+    console.log('Successful transaction');
+}
+else if(creditCard) {
+    console.log('You paid with a credit card');
+}
+else {
+    console.log('Failure');
+}
 
-// switch(card){
-//     case 'true':
-//         credit=true;
-//         break;
-//     case 'faule':
-//         credit=false;
-//         break;
-//     default:
-//         console.log('invalied option');
-//         break;
-// }
+switch(card){
+    case 'true':
+        credit=true;
+        break;
+    case 'faule':
+        credit=false;
+        break;
+    default:
+        console.log('invalied option');
+        break;
+}
 
 let hour = 8;
 
