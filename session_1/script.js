@@ -22,8 +22,14 @@ sentence=sentence.replace('best', 'worst');
 
 console.log(sentence);
 
-var num1=10;
-var num2=30;
+// var num1=10;
+// var num2=30;
+
+var num1 = parseInt(prompt("Enter first number: "));
+alert('Your First Number: ' + num1)
+var num2 = parseInt(prompt("Enter Second number: "));
+alert('Your Second Number: ' + num2)
+
 
 var sum = num1 + num2;
 console.log(sum);
@@ -34,3 +40,13 @@ console.log(mult);
 var div = num1 / num2;
 console.log(div);
 
+// var user = prompt("Name: ");
+// alert('Welcome ' + user);
+
+document.getElementById('division').innerHTML=`Num 1 = ${num1} <br> <br> Num 2 = ${num2}`;
+
+// " Num1 = " + num1 + " <br> <br> " + "Num2 = " + num2 + "<hr>";
+
+for(var i=0; i<=10; i++){
+    console.log("Hello JS");
+}
