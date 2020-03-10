@@ -3,6 +3,7 @@
 // prompt("Enter your name: ");
 // console.log("my first message on the console");
 
+/*
 var x = 10;
 let y = 20;
 const name="Chris";
@@ -22,8 +23,8 @@ sentence=sentence.replace('best', 'worst');
 
 console.log(sentence);
 
-// var num1=10;
-// var num2=30;
+var num1=10;
+var num2=30;
 
 var num1 = parseInt(prompt("Enter first number: "));
 alert('Your First Number: ' + num1)
@@ -40,13 +41,29 @@ console.log(mult);
 var div = num1 / num2;
 console.log(div);
 
-// var user = prompt("Name: ");
-// alert('Welcome ' + user);
+var user = prompt("Name: ");
+alert('Welcome ' + user);
 
 document.getElementById('division').innerHTML=`Num 1 = ${num1} <br> <br> Num 2 = ${num2}`;
 
-// " Num1 = " + num1 + " <br> <br> " + "Num2 = " + num2 + "<hr>";
+" Num1 = " + num1 + " <br> <br> " + "Num2 = " + num2 + "<hr>";
 
 for(var i=0; i<=10; i++){
     console.log("Hello JS");
 }
+
+*/
+
+var email = prompt("Enter your email");
+
+var n = email.includes('@');
+
+console.log(n);
+
+if (n===true){
+    console.log("Correct email address");
+}
+else{
+    console.log("no");
+}
+
