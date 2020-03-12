@@ -90,12 +90,43 @@ else{
 
 //arrays
 
-let names = ['Chad', 'Marlo', true, 'Efren', 'Marquis', 'Kenneth', 10];
+let names = ['Chad', 'Marlo', 'Chris', 'Efren', 'Marquis', 'Kenneth', 'Zach'];
 
-console.table(names);
+var ages = [30,32,34,38,30,28];
 
-var position=3;
+// console.table(names);
+// console.table(ages);
+//var position=3;
 
 for(position=0; position < names.length; position++){
     console.log(names[position]);
+    console.log(ages[position]);
 }
+
+/*
+for(position=0; position < names.length; position++){
+    alert(names[position] + " " + ages[position]);
+} 
+*/
+
+var days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+console.table(days);
+
+var matriz = new Array(4);
+
+for(var j = 0; j < 4; j++)
+matriz[j] = new Array(2);
+
+matriz[0][0]=10;
+matriz[0][1]=1;
+matriz[1][0]=12;
+matriz[1][1]=2;
+matriz[2][0]=10;
+matriz[2][1]=1;
+matriz[3][0]=12;
+matriz[3][1]=2;
+
+console.log(matriz[0][0]);
+console.log(matriz[0][1]);
+console.log(matriz[1][0]);
+console.log(matriz[1][1]);
