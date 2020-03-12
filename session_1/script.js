@@ -51,19 +51,51 @@ document.getElementById('division').innerHTML=`Num 1 = ${num1} <br> <br> Num 2 =
 for(var i=0; i<=10; i++){
     console.log("Hello JS");
 }
-
 */
 
-var email = prompt("Enter your email");
+//var age = prompt("Enter your age");
 
-var n = email.includes('@');
+//var email = prompt("Enter your email");
 
-console.log(n);
+//var n = email.includes('@');
 
-if (n===true){
-    console.log("Correct email address");
+//var number=10;
+//var string="10.00";
+
+// var number1 = prompt("Enter number 1");
+// var number2 = prompt("Enter number 2");
+
+// if(number1 > number2) {
+//     console.log("The first number is the greater than the number 2");
+// }
+// //You can also use an else if to check if number2 > number1
+// else{
+//     console.log("2 is greater than 1");
+// }
+
+//console.log(n);
+
+//if(n) is the same asw if(n===true)
+/*if (n===true){
+    console.log("Correct email address");dfasdfa
 }
 else{
-    console.log("no");
-}
+    console.log("type again");
+}*/
 
+/*if(number===string){
+    console.log("yes");
+}*/
+
+
+//arrays
+
+let names = ['Chad', 'Marlo', true, 'Efren', 'Marquis', 'Kenneth', 10];
+
+console.table(names);
+
+var position=3;
+
+for(position=0; position < names.length; position++){
+    console.log(names[position]);
+}
