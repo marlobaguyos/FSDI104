@@ -27,3 +27,4 @@ const person2 = {
 }
 
 console.log(person1.birthday());
+console.log(person2.birthday());
