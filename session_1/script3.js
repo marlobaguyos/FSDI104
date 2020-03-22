@@ -62,3 +62,8 @@ const t3 = new Tasks('TTH', 'low', '02/20/2020');
 
 console.log(t1);
 console.log(t2);
+console.log(t3);
+
+const tasks = [t1, t2, t3];
+
+
