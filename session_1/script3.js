@@ -80,3 +80,25 @@ document.getElementById('division').innerHTML=text;
 // document.getElementById('division').innerHTML=`<p>${t1.name} ${t1.priority} ${t1.date}</p>`
 // document.getElementById('division').innerHTML=`<p>${t2.name} ${t2.priority} ${t2.date}</p>`
 
+const client = {
+    name:'John',
+    type:'Premium',
+    data:{
+        location:{
+            country:'Mexico',
+            city:'TJ'
+        },
+        account:{
+            date:2010,
+            number:'98574'
+        }
+    }
+}
+
+let {data:{location}}=client;
+
+console.log(client.data.account.number);
+
+//object destructuring
+
+let{number} = client; 
