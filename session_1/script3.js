@@ -66,4 +66,17 @@ console.log(t3);
 
 const tasks = [t1, t2, t3];
 
+console.table(tasks);
+
+var text="";
+for(var i=0; i<tasks.length;i++){
+    text += `<h2> ${tasks[i].name} ${tasks[i].priority} ${tasks[i].date} </h2>`;
+}
+
+console.log(text);
+
+document.getElementById('division').innerHTML=text;
+
+// document.getElementById('division').innerHTML=`<p>${t1.name} ${t1.priority} ${t1.date}</p>`
+// document.getElementById('division').innerHTML=`<p>${t2.name} ${t2.priority} ${t2.date}</p>`
 
