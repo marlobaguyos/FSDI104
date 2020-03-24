@@ -96,10 +96,12 @@ const client = {
 }
 
 let {data:{account:{number}}}=client;
+let {name}=client;
+let {type}=client;
+let {data:{location:{country}}}=client;
 
 console.log(client.data.account.number);
 console.log(number);
+console.log(name);
 
 //object destructuring
-
-let{type} = client; //client.type
