@@ -122,4 +122,10 @@ const s5 = new Student("John", 949,"A-");
 const s6 = new Student("Cody", 850, "B+");
 const s7 = new Student("Chad", 1000, 'A');
 
-const students = {s1, s2, s3, s4, s5, s7};
+const students = [s1, s2, s3, s4, s5,s6, s7];
+
+const best = students.filter(students => students.points>800);
+console.log(best);
+
+const cody = students.find(students => students.grade ==='A');
+console.log(cody);
