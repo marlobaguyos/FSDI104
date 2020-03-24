@@ -103,5 +103,6 @@ let {data:{location:{country}}}=client;
 console.log(client.data.account.number);
 console.log(number);
 console.log(name);
+console.log(type);
 
 //object destructuring
