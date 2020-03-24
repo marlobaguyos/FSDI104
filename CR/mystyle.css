@@ -34,3 +34,10 @@ header {
     text-align: center;
 }
 
+button {
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    width: 80%;
+    height: 5vh;
+}
