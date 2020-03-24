@@ -129,3 +129,6 @@ console.log(best);
 
 const cody = students.find(students => students.grade ==='A');
 console.log(cody);
+
+const total = students.reduce((total,students) => total+students.points,0)
+console.log(total/students.length);
