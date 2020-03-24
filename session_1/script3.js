@@ -97,9 +97,8 @@ const client = {
 
 let {data:{account:{number}}}=client;
 
-
-
 console.log(client.data.account.number);
+console.log(number);
 
 //object destructuring
 
