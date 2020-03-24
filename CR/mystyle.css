@@ -1,13 +1,14 @@
 .wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .square {
-    flex-basis: 50%;
+    flex-basis: 30%;
     height: 50vh;
     padding: 1rem;
     Margin: 1rem;
+    text-align: center;
     background-color:rgb(193,193,193);
 }
 
@@ -20,6 +21,10 @@
     margin-right: auto;
 }
 
+.character {
+    height: 30vh;
+}
+
 footer {
     text-align: center;
     margin: 2rem;
@@ -28,3 +33,4 @@ footer {
 header {
     text-align: center;
 }
+
