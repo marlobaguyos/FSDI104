@@ -95,6 +95,7 @@ const client = {
     }
 }
 
+//object destructuring
 let {data:{account:{number}}}=client;
 let {name}=client;
 let {type}=client;
@@ -105,4 +106,20 @@ console.log(number);
 console.log(name);
 console.log(type);
 
-//object destructuring
+class Student{
+    constructor(name, points, grade){
+        this.name=name;
+        this.points=points;
+        this.grade=grade;
+    }
+}
+
+const s1 = new Student("Larry", 900, "A-");
+const s2 = new Student("Jose", 850, "B+");
+const s3 = new Student("Edward", 980, "A");
+const s4 = new Student("Eli", 500, "F");
+const s5 = new Student("John", 949,"A-");
+const s6 = new Student("Cody", 850, "B+");
+const s7 = new Student("Chad", 1000, 'A');
+
+const students = {s1, s2, s3, s4, s5, s7};
