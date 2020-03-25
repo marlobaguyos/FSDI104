@@ -15,6 +15,7 @@ class Character {
         var newEnergy = opponent.energy - this.hp;
         opponent.energy=newEnergy;
         console.log(opponent.energy);
+        opponent.display();
     }
 }
 
@@ -23,5 +24,3 @@ const c2 = new Character("img/pngguru.com (2).png","Yellow",100,8,"yellowinfo");
 
 c1.display();
 c2.display();
-
-c1.attack(c2);
