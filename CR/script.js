@@ -9,7 +9,12 @@ class Character {
     display = function () {
         document.getElementById("img" + this.id).innerHTML=`<img class="character" src="${this.image}">`;
         document.getElementById(this.id).innerHTML=`Name: ${this.name} <br> Energy: ${this.energy} <br> HP:${this.hp}`;
+    }
 
+    attack = function(opponent){
+        var newEnergy = opponent.energy - this.hp;
+        opponent.energy=newEnergy;
+        console.log(opponent.energy);
     }
 }
 
@@ -18,3 +23,5 @@ const c2 = new Character("img/pngguru.com (2).png","Yellow",100,8,"yellowinfo");
 
 c1.display();
 c2.display();
+
+c1.attack(c2);
