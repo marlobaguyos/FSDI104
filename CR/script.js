@@ -12,7 +12,7 @@ class Character {
     }
 
     attack = function(opponent,item){
-        var newEnergy = opponent.energy - this.imagic;
+        var newEnergy = opponent.energy - item.imagic;
         opponent.energy=newEnergy;
         console.log(opponent.energy);
         opponent.display();
