@@ -1,20 +1,20 @@
 class Character {
-    constructor(image,name,energy,hp,id){
+    constructor(image,name,health,atkpwr,id){
         this.name=name;
-        this.energy=energy;
-        this.hp=hp;
+        this.health=health;
+        this.atkpwr=atkpwr;
         this.id=id;
-        this.image=image
+        this.image=image;
     }
     display = function () {
         document.getElementById("img" + this.id).innerHTML=`<img class="character" src="${this.image}">`;
-        document.getElementById(this.id).innerHTML=`Name: ${this.name} <br> Energy: ${this.energy} <br> HP:${this.hp}`;
+        document.getElementById(this.id).innerHTML=`Name: ${this.name} <br> Health: ${this.health} <br> Attack Power:${this.atkpwr}`;
     }
 
     attack = function(opponent,item){
-        var newEnergy = opponent.energy - item.imagic;
-        opponent.energy=newEnergy;
-        console.log(opponent.energy);
+        var newHealth = opponent.health - item.imagic;
+        opponent.health=newHealth;
+        console.log(opponent.health);
         opponent.display();
     }
 }
