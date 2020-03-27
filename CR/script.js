@@ -37,3 +37,4 @@ const item1 = new Item("vodka",30,'img/vodka.png');
 const item2 = new Item("beer",15,'img/beer.png');
 const item3 = new Item("tequila",20,'img/tequila.png');
 
+
