@@ -16,7 +16,7 @@ class Character {
         opponent.health=newHealth;
         console.log(opponent);
         opponent.display();
-        document.getElementById('console').innerHTML=`Drink a ${item.iname} <br> <img src="${item.img}" <br> <br> ${opponent.name} is Attacking`;
+        document.getElementById('console').innerHTML=`Drink a ${item.iname} <br> <img src="${item.img}" <br> <br> ${opponent.name} is Attacking ${opponent.name}`;
 
         if (opponent.health < 0) {
             document.getElementById('console').innerHTML=`Alcohol is Bad for you!!! <br> Game Over!`;
