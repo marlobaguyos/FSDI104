@@ -16,6 +16,7 @@ class Character {
         opponent.health=newHealth;
         console.log(opponent.health);
         opponent.display();
+        document.getElementById('console').innerHTML=`Item <img src="${item.img}">`;
     }
 }
 
@@ -37,4 +38,11 @@ const item1 = new Item("vodka",5,'img/vodka.png');
 const item2 = new Item("beer",10,'img/beer.png');
 const item3 = new Item("tequila",20,'img/tequila.png');
 
+var items = [item1, item2, item3];
 
+function select(){
+    let selection = Math.floor(Math.random() * 3);
+    return items[selection];
+}
+
+console.log(select());
