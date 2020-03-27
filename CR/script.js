@@ -14,9 +14,13 @@ class Character {
     attack = function(opponent,item){
         var newHealth = opponent.health - item.imagic;
         opponent.health=newHealth;
-        console.log(opponent.health);
+        console.log(opponent);
         opponent.display();
-        document.getElementById('console').innerHTML=`Item <img src="${item.img}">`;
+        document.getElementById('console').innerHTML=`Drink a ${item.iname} <br> <img src="${item.img}" <br> <br> ${opponent.name} is Attacking`;
+
+        if (opponent.health < 0) {
+            document.getElementById('console').innerHTML=`Alcohol is Bad for you!!! <br> Game Over!`;
+        }
     }
 }
 

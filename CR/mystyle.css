@@ -43,3 +43,7 @@ button {
     margin: 1rem;
     font-size: 18px;
 }
+
+#console img{
+    height: 10vh;
+}
