@@ -12,6 +12,14 @@
     background-color:rgb(193,193,193);
 }
 
+.reset {
+    flex-basis: 30%;
+    height: 10vh;
+    padding: 1rem;
+    Margin: 1rem;
+    text-align: center;
+}
+
 .console {
     color: white;
     background: #000000;
@@ -42,4 +50,8 @@ button {
     height: 5vh;
     margin: 1rem;
     font-size: 18px;
+}
+
+#console img{
+    height: 10vh;
 }

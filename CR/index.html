@@ -21,7 +21,7 @@
                 <!-- <img class="character" src="img/pngguru.com (3).png" alt=""> -->
                 <div id="imgredinfo"></div>
                 <br>
-                <button>Assualt Strike Blitz Charge</button>
+                <button onclick="c1.attack(c2,select())" onclick="">Assualt Strike Blitz Charge</button>
                 <p id="redinfo">Information</p>
             </div>
 
@@ -30,14 +30,17 @@
                 <!-- <img class="character" src="img/pngguru.com (2).png" alt=""> -->
                 <div id="imgyellowinfo"></div>
                 <br>
-                <button>Assualt Strike Blitz Charge</button>
+                <button onclick='c2.attack(c1, select())'>Assualt Strike Blitz Charge</button>
                 <p id="yellowinfo">Information</p>
             </div>
 
         </div>
     </main>
-        <div class="console">
+        <div class="console" id="console">
             actions...
+        </div>
+        <div class="reset">
+            <button onClick="window.location.reload();">Reset Game</button>
         </div>
     <footer>
         All the rights reserved &copy; Marlo Baguyos
